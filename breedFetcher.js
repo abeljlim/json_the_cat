@@ -1,6 +1,6 @@
 const request = require('request');
 
-const srcURLEndpoint = `https://api.thgresecatapi.com/v1/breeds/search`;
+const srcURLEndpoint = `https://api.thecatapi.com/v1/breeds/search`;
 
 const fetchBreedDescription = function(breedName, callback) {
   const srcURL = `${srcURLEndpoint}?q=${breedName}`;
